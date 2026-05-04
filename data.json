@@ -1,0 +1,215 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": [
+        "👋 Hello! I'm your AI Travel Guide 🌍",
+        "✈️ Hi! Ask me about any travel destination in India"
+      ]
+    },
+
+    {
+      "tag": "goa",
+      "patterns": ["goa"],
+      "responses": [
+        "📍 Places: Baga Beach, Calangute, Fort Aguada",
+        "🧗 Adventures: Scuba Diving, Parasailing",
+        "💰 Stay: ₹1500–₹4000 | Food: ₹500–₹1000 | Travel: ₹800–₹1500",
+        "🧾 Total: ₹3000–₹6000/day",
+        "📌 Best for beach lovers and nightlife"
+      ]
+    },
+
+    {
+      "tag": "ooty",
+      "patterns": ["ooty"],
+      "responses": [
+        "📍 Places: Ooty Lake, Botanical Garden",
+        "🧗 Adventures: Boating, Trekking",
+        "💰 Total: ₹1500–₹3000/day",
+        "📌 Best budget hill station"
+      ]
+    },
+
+    {
+      "tag": "kodaikanal",
+      "patterns": ["kodaikanal"],
+      "responses": [
+        "📍 Places: Kodai Lake, Pillar Rocks",
+        "🧗 Adventures: Cycling",
+        "💰 Total: ₹2000–₹3500/day",
+        "📌 Calm and romantic destination"
+      ]
+    },
+
+    {
+      "tag": "manali",
+      "patterns": ["manali"],
+      "responses": [
+        "📍 Places: Solang Valley, Rohtang Pass",
+        "🧗 Adventures: Skiing, Paragliding",
+        "💰 Total: ₹2500–₹5000/day",
+        "📌 Best for adventure lovers"
+      ]
+    },
+
+    {
+      "tag": "chennai",
+      "patterns": ["chennai"],
+      "responses": [
+        "📍 Places: Marina Beach",
+        "💰 Total: ₹1000–₹2500/day",
+        "📌 Budget city trip"
+      ]
+    },
+
+    {
+      "tag": "delhi",
+      "patterns": ["delhi"],
+      "responses": [
+        "📍 Places: Red Fort, India Gate",
+        "💰 Total: ₹1500–₹3000/day",
+        "📌 Cultural capital"
+      ]
+    },
+
+    {
+      "tag": "mumbai",
+      "patterns": ["mumbai"],
+      "responses": [
+        "📍 Places: Gateway of India",
+        "💰 Total: ₹3000–₹6000/day",
+        "📌 Expensive metro city"
+      ]
+    },
+
+    {
+      "tag": "bangalore",
+      "patterns": ["bangalore"],
+      "responses": [
+        "📍 Places: Lalbagh",
+        "💰 Total: ₹2000–₹4000/day",
+        "📌 Tech city"
+      ]
+    },
+
+    {
+      "tag": "hyderabad",
+      "patterns": ["hyderabad"],
+      "responses": [
+        "📍 Places: Charminar",
+        "💰 Total: ₹1800–₹3500/day",
+        "📌 Food paradise"
+      ]
+    },
+
+    {
+      "tag": "jaipur",
+      "patterns": ["jaipur"],
+      "responses": [
+        "📍 Places: Hawa Mahal",
+        "💰 Total: ₹1800–₹3500/day",
+        "📌 Pink city"
+      ]
+    },
+
+    {
+      "tag": "kerala",
+      "patterns": ["kerala"],
+      "responses": [
+        "📍 Places: Munnar, Alleppey",
+        "💰 Total: ₹3000–₹6000/day",
+        "📌 Nature + houseboats"
+      ]
+    },
+
+    {
+      "tag": "leh",
+      "patterns": ["leh", "ladakh"],
+      "responses": [
+        "📍 Places: Pangong Lake",
+        "💰 Total: ₹4000–₹8000/day",
+        "📌 High altitude adventure"
+      ]
+    },
+
+    {
+      "tag": "rishikesh",
+      "patterns": ["rishikesh"],
+      "responses": [
+        "📍 Activities: River rafting",
+        "💰 Total: ₹1500–₹3000/day",
+        "📌 Adventure + spiritual"
+      ]
+    },
+
+    {
+      "tag": "darjeeling",
+      "patterns": ["darjeeling"],
+      "responses": [
+        "📍 Places: Tea Gardens",
+        "💰 Total: ₹2000–₹4000/day",
+        "📌 Scenic hills"
+      ]
+    },
+
+    {
+      "tag": "andaman",
+      "patterns": ["andaman"],
+      "responses": [
+        "📍 Activities: Scuba diving",
+        "💰 Total: ₹4000–₹8000/day",
+        "📌 Island trip"
+      ]
+    },
+
+    {
+      "tag": "pondicherry",
+      "patterns": ["pondicherry"],
+      "responses": [
+        "📍 Places: Rock Beach",
+        "💰 Total: ₹1800–₹3500/day",
+        "📌 French vibe"
+      ]
+    },
+
+    {
+      "tag": "coorg",
+      "patterns": ["coorg"],
+      "responses": [
+        "📍 Places: Coffee estates",
+        "💰 Total: ₹2000–₹4000/day",
+        "📌 Nature trip"
+      ]
+    },
+
+    {
+      "tag": "mysore",
+      "patterns": ["mysore"],
+      "responses": [
+        "📍 Places: Mysore Palace",
+        "💰 Total: ₹1500–₹3000/day",
+        "📌 Cultural city"
+      ]
+    },
+
+    {
+      "tag": "varanasi",
+      "patterns": ["varanasi"],
+      "responses": [
+        "📍 Places: Ganga Ghats",
+        "💰 Total: ₹1500–₹2800/day",
+        "📌 Spiritual city"
+      ]
+    },
+
+    {
+      "tag": "unknown",
+      "patterns": ["random"],
+      "responses": [
+        "❌ Please ask about a valid city like Goa, Ooty, Manali"
+      ]
+    }
+  ]
+}
