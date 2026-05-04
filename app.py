@@ -1,8 +1,11 @@
 import streamlit as st
-def get_response(user_input):
 
 # ---- PAGE CONFIG ----
 st.set_page_config(page_title="AI Interview Chatbot", page_icon="🤖", layout="wide")
+
+# ---- SIMPLE RESPONSE FUNCTION ----
+def get_response(user_input):
+    return "This is a demo response for: " + user_input
 
 # ---- CUSTOM CSS ----
 st.markdown("""
