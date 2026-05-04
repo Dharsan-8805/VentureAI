@@ -1,5 +1,5 @@
 import streamlit as st
-from model import get_response
+def get_response(user_input):
 
 # ---- PAGE CONFIG ----
 st.set_page_config(page_title="AI Interview Chatbot", page_icon="🤖", layout="wide")
